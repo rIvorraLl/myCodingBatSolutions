@@ -1,4 +1,4 @@
-package warmup_2;
+package string_1;
 
 public class ComboString {
     /*
