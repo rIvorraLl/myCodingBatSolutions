@@ -24,8 +24,4 @@ public class WithoutX {
 	} else
 	    return str;
     }
-
-    public static void main(String[] args) {
-	System.out.println(withoutX("xHi"));
-    }
 }
