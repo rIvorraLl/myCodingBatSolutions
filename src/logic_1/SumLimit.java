@@ -10,7 +10,6 @@ public class SumLimit {
      */
     public int sumLimit(int a, int b) {
 	int aLen = String.valueOf(a).length();
-	int bLen = String.valueOf(b).length();
 	int sumLen = String.valueOf(a + b).length();
 	if (aLen == sumLen) {
 	    return a + b;

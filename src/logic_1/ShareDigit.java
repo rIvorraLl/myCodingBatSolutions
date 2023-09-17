@@ -7,14 +7,19 @@ public class ShareDigit {
      * e.g. n/10, gives the left digit while the % "mod" n%10 gives the right
      * digit.)
      */
-    public boolean shareDigit(int a, int b) {
+    public static boolean shareDigit(int a, int b) {
 	int leftA = a / 10;
 	int rightA = a % 10;
 	int leftB = b / 10;
 	int rightB = b % 10;
-	if (leftA == leftB || leftA == rightB || rightA == leftA || rightB == rightB) {
+	System.out.println(rightA);
+	System.out.println(leftB);
+	System.out.println(rightA == leftA);
+	if (leftA == leftB || leftA == rightB || rightA == leftB || rightA == rightB) {
 	    return true;
 	}
 	return false;
     }
 }
+
+// 12, 44
