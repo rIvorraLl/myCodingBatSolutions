@@ -11,19 +11,9 @@ public class RepeatFront {
 	String result = "";
 	int index = n;
 	for (int i = 0; i < n; i++) {
-	    // System.out.println(str.substring(i, index));
 	    result += str.substring(0, index);
-	    System.out.println(result + " patata " + index);
 	    index--;
 	}
 	return result;
     }
-    
-    public static void main(String[] args) {
-	RepeatFront test = new RepeatFront();
-	System.out.println(test.repeatFront("Chocolate", 4));
-    }
 }
-
-
-// repeatFront("Chocolate", 4) → "ChocChoChC"
