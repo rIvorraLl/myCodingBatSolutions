@@ -1,6 +1,6 @@
 package array_2;
 
-public class CountDiffs {
+public class CountDiff {
     /*
      * Given an array length 1 or more of ints, return the difference between the
      * largest and smallest values in the array. Note: the built-in Math.min(v1, v2)
