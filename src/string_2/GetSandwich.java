@@ -1,8 +1,5 @@
 package string_2;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class GetSandwich {
     /*
      * A sandwich is two pieces of bread with something in between. Return the
