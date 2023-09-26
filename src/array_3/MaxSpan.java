@@ -28,6 +28,3 @@ public class MaxSpan {
 	return maxDistance;
     }
 }
-
-// maxSpan([1, 4, 2, 1, 4, 1, 4]) → 6
-//	    0  1  2  3  4  5  6
