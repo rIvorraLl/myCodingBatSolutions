@@ -1,4 +1,4 @@
-package array_3;
+package string_3;
 
 public class CountTriple {
     /*
