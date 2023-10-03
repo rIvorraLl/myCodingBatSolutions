@@ -22,6 +22,8 @@ Completed so far:
 
 - String-2
 
+- String-3
+
 - Warmup-1
 
 - Warmup-2
