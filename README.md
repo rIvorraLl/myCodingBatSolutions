@@ -18,6 +18,8 @@ Completed so far:
 
 - Functional-1
 
+- Functional-2
+
 - Logic-1
 
 - Logic-2
