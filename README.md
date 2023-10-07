@@ -20,6 +20,8 @@ Completed so far:
 
 - Logic-2
 
+- Map-1
+
 - String-1
 
 - String-2
