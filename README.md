@@ -22,6 +22,8 @@ Completed so far:
 
 - Map-1
 
+- Map-2
+
 - String-1
 
 - String-2
