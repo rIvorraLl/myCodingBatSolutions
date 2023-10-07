@@ -16,6 +16,8 @@ Completed so far:
 
 - Array-3
 
+- Functional-1
+
 - Logic-1
 
 - Logic-2
