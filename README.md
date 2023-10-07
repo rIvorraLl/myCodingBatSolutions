@@ -8,6 +8,8 @@ Solutions are mine.
 
 Completed so far:
 
+- AP-1
+
 - Array-1
 
 - Array-2
