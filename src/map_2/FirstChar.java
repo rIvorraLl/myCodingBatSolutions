@@ -20,25 +20,9 @@ public class FirstChar {
 	}
 	for (String str : strings) {
 	    String firstC = "" + str.charAt(0);
-	    String getKey = result.get(firstC);
-	    System.out.println(firstC);
-	    System.out.println(getKey);
-	    System.out.println(firstC.equals(getKey));
-	    if (firstC.equals(getKey)) {
-		result.put(firstC, str);
-	    }
+	    result.put(firstC, result.get(firstC) + str);
+
 	}
 	return result;
     }
-    public static void main(String[] args) {
-	FirstChar test = new FirstChar();
-	String[] arr = { "salt", "tea", "soda", "toast" };
-	Map<String, String> h = test.firstChar(arr);
-	System.out.println(h.get("s"));
-    }
-    /*
-     * firstChar(["salt", "tea", "soda", "toast"]) → {"s": "saltsoda", "t": "teatoast"}
-	firstChar(["aa", "bb", "cc", "aAA", "cCC", "d"]) → {"a": "aaaAA", "b": "bb", "c": "cccCC", "d": "d"}
-	firstChar([]) → {}
-     */
 }
