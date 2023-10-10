@@ -9,7 +9,7 @@ public class CountAbc {
 	if (str.length() == 0) {
 	    return 0;
 	}
-	if (str.length() >= 3 && str.substring(0, 3).equals("abc") || str.substring(0, 3).equals("aba")) {
+	if (str.length() >= 3 && (str.substring(0, 3).equals("abc") || str.substring(0, 3).equals("aba"))) {
 	    return countAbc(str.substring(1)) + 1;
 	}
 	return countAbc(str.substring(1));
