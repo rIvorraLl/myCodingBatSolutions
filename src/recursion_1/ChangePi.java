@@ -20,11 +20,6 @@ public class ChangePi {
 	if (s.equals("pi")) {
 	    return "3.14" + changePi(str.substring(2));
 	}
-	return changePi(str.substring(1));
-    }
-    
-    public static void main(String[] args) {
-	ChangePi test = new ChangePi();
-	System.out.println(test.changePi("xpix"));
+	return str.substring(0, 1) + changePi(str.substring(1));
     }
 }
