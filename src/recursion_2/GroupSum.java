@@ -24,5 +24,4 @@ public class GroupSum {
 	}
 	return false;
     }
-
 }
